@@ -1,2 +1,4 @@
+* stata.toc
 v 3
+d Program to transfer the value labels from one variable onto another or the string values from one variable onto another as value labels row-by-row
 p getlabsfor module to transfer the value labels from one variable onto another row-by-row
