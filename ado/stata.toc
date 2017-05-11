@@ -1,1 +1,3 @@
+v 3
+d packages by Hendrik van Broekhuizen
 p getlabsfor module to transfer the value labels from one variable onto another row-by-row
