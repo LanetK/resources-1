@@ -3,7 +3,7 @@
 *! Description:	PROGRAM to transfer the value labels from one variable onto another row-by-row (useful when you want to present factor variables in a specific order while retaining the original labelling)
 cap program drop getlabsfor 
 program define getlabsfor
-	version 14.1
+	version 12.0
 	syntax varlist(max = 1 numeric), From(varname)
 	
 	local tovar `varlist'

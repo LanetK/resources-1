@@ -1,10 +1,9 @@
 d 'GETLABSFOR': module transfer value labels or string values as value labels from one variable onto another row-by-row
 d
-getlabsfor is a command that transfers value labels from one numeric variable onto another OR transfers string values as value labels from one variable onto another. It does this by passing both variables to Mata as column vectors and then mapping the value labels onto the desired variable row-by-row using the st_vlmodify() function. 
+d getlabsfor is a utility command that transfers value labels from one numeric variable onto another OR transfers string values as value labels from one variable onto another. It does this by passing both variables to Mata as column vectors and then mapping the value labels onto the desired variable row-by-row using the st_vlmodify() function. 
 d
-d KW: u-statistic
-d KW: meta-analysis
-d KW: random effects
+d KW: value labels
+d KW: mata
 d
 d Requires: Stata version 12
 d
